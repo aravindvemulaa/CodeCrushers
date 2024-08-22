@@ -3,6 +3,7 @@ public class BootCampDay2 {
     public static void main(String args[]) {
         System.out.println("Enter an Integer : ");
         Scanner t= new Scanner(System.in);
+        t.close();
         int M=t.nextInt();
         if(M%3==0&&M%5==0) {
             System.out.println("Good Number");

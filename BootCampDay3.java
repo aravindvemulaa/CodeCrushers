@@ -5,6 +5,7 @@ class BootCampDay3 {
      int n;
     System.out.println("Enter a Number: ");
         Scanner t=new Scanner(System.in);
+        t.close();
         n=t.nextInt();
         temp=n;
     while (n > 0) {
